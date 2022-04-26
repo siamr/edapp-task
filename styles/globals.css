@@ -1,0 +1,115 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
+}
+/* HomePage */
+.intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.articles_container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.home_list{
+  line-height: 2px;
+  font-size: 12px;
+}
+.home_list:hover{
+  text-decoration: underline;
+  color: rgb(35, 163, 206);
+}
+.link_des{
+  font-size: 16px;
+  text-align: center;
+
+}
+.homepage-info-container{
+  text-align: center;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+li{
+  list-style-type: none;
+}
+li:hover{
+  cursor: pointer;
+}
+
+/* NAVBAR */
+.scroll_active{
+  background-color: white;
+  color: black;
+  width: 100%;
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.container{
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.main_menu{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.logo{
+  height: 45px;
+  margin-right: 15px;
+}
+
+/* dropdown */
+/* .dropdown{
+  color: black;
+  margin: 0;
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+}
+.dropdown>li{
+margin-top: 10px;
+margin-right: 8px;  
+margin-left:-20px; 
+margin-top: 15px;
+text-align: start;
+}
+ */
+
+ .dropdown {
+  display: none;
+}
+  
+.active {
+  display: block;
+}

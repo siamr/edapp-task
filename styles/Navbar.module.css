@@ -1,0 +1,22 @@
+.signup_btn{
+    color: white;
+    background-color: #46b4e9;
+    background-image: linear-gradient(#46b4e9,#0070af);
+    border-radius: 20px;
+    border: none;
+}
+.login{
+    margin: 15px;
+
+}
+.login:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.signup_btn:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#287faa,#0070af);
+    background-color: #1079ad;
+    
+}
+

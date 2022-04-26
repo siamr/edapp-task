@@ -1,0 +1,24 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #1f2e3c;
+}
+.banner_container{
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+.banner_container > button{
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: #46b4e9;
+    background-image: linear-gradient(#46b4e9,#0070af);
+}

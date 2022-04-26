@@ -1,0 +1,16 @@
+.footer_links{
+    padding: 30px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.footer_heading{
+    margin: 20px;
+}
+.footer_heading > li{
+    margin-top: 20px;
+}
+
+.footer_heading > li:hover{
+    color: gray;
+}

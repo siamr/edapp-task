@@ -1,0 +1,14 @@
+.features_container{
+    display: flex;
+
+}
+.features>h2{
+    text-align: center;
+}
+.feature{
+    margin: 40px;
+    text-align: center;
+}
+.feature_img{
+    border-radius: 50%;
+}
